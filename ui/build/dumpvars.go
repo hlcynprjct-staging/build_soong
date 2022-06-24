@@ -138,6 +138,7 @@ func dumpMakeVars(ctx Context, config Config, goals, vars []string, write_soong_
 // Variables to print out in the top banner
 var BannerVars = []string{
         "HALCYON_VERSION",
+        "HALCYON_BUILD_VERSION",
         "HALCYON_BUILD_TYPE",
         "WITH_GAPPS",
 	"PLATFORM_VERSION",
